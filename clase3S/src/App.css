@@ -1,0 +1,26 @@
+#root{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer{
+  background-color: black;
+  color: white;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: bisque;
+
+}
+
+.card{
+  display: flex;
+  flex-direction: column ;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
